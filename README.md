@@ -50,10 +50,10 @@ curl --location 'http://localhost:8080/names/1'
 
 ```json
 {
-  "message": "user not found",
+  "message": "name not found",
   "timestamp": "2022-07-07T00:38:53.260151+09:00[Asia/Tokyo]",
   "error": "Not Found",
-  "path": "/users/100",
+  "path": "/names/100",
   "status": "404"
 }
 ```
